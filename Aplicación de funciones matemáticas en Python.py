@@ -1,31 +1,29 @@
-# Aplicación de funciones matemáticas en Python
+import math
 
-import math  
+# Entrada
+num = float(input("Ingrese un número real: "))
 
-# Entrada de datos
-numero = float(input("Ingrese un número real: "))
+# Cálculos
+raiz = math.sqrt(abs(num))
+cuadrado = num ** 2
+cubo = num ** 3
+absoluto = abs(num)
+entero = int(num)
+redondeado = round(num)
+seno = math.sin(num)
+coseno = math.cos(num)
+tangente = math.tan(num)
 
-# Proceso: Aplicación de funciones matemáticas
-raiz_cuadrada = math.sqrt(abs(numero)) 
-potencia_cuadrado = math.pow(numero, 2)
-potencia_cubo = math.pow(numero, 3)
-valor_absoluto = abs(numero)
-parte_entera = math.trunc(numero)
-redondeado = round(numero)
-seno = math.sin(numero)
-coseno = math.cos(numero)
-tangente = math.tan(numero)
-
-# Salida de datos
-print(f"\nResultados para el número {numero}:")
-print(f"Raíz cuadrada: {raiz_cuadrada}")
-print(f"Potencia al cuadrado: {potencia_cuadrado}")
-print(f"Potencia al cubo: {potencia_cubo}")
-print(f"Valor absoluto: {valor_absoluto}")
-print(f"Parte entera: {parte_entera}")
+# Salida
+print(f"\nResultados para el número {num}:")
+print(f"Raíz cuadrada: {raiz}")
+print(f"Cuadrado: {cuadrado}")
+print(f"Cubo: {cubo}")
+print(f"Valor absoluto: {absoluto}")
+print(f"Parte entera: {entero}")
 print(f"Redondeado: {redondeado}")
 print(f"Seno: {seno}")
 print(f"Coseno: {coseno}")
-
 print(f"Tangente: {tangente}")
+
 
