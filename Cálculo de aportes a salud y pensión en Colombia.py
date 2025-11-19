@@ -1,4 +1,4 @@
-# Ejemplo 2.7: Cálculo de aportes a salud y pensión en Colombia
+# Cálculo de aportes a salud y pensión en Colombia
 
 # Entrada de datos
 salario_base = float(input("Ingrese el salario base del empleado: "))
@@ -14,4 +14,5 @@ print("\n--- Resultados ---")
 print(f"Aporte a salud (4%): ${aporte_salud:.2f}")
 print(f"Aporte a pensión (4%): ${aporte_pension:.2f}")
 print(f"Total descuentos: ${total_descuento:.2f}")
+
 print(f"Salario neto a recibir: ${salario_neto:.2f}")
