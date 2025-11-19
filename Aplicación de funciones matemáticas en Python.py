@@ -6,7 +6,7 @@ import math
 numero = float(input("Ingrese un número real: "))
 
 # Proceso: Aplicación de funciones matemáticas
-raiz_cuadrada = math.sqrt(abs(numero))  # sqrt solo admite números positivos
+raiz_cuadrada = math.sqrt(abs(numero)) 
 potencia_cuadrado = math.pow(numero, 2)
 potencia_cubo = math.pow(numero, 3)
 valor_absoluto = abs(numero)
@@ -28,3 +28,4 @@ print(f"Seno: {seno}")
 print(f"Coseno: {coseno}")
 
 print(f"Tangente: {tangente}")
+
